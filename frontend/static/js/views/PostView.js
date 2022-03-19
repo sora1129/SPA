@@ -9,8 +9,8 @@ export default class extends AbstractView {
 
 	async getHtml() {
 		return `
-		<h1>Posts</h1>
-		<p>You are viewing the posts #${this.postId}.</p>
+		<h1>PostView</h1>
+		<p>You are viewing the post${this.postId}.</p>
 		`;
 	}
 }
